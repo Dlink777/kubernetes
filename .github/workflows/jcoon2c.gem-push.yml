@@ -45,15 +45,15 @@ jobs:
         GEM_HOST_API_KEY: "${{secrets.RUBYGEMS_AUTH_TOKEN}}"
         $ sudo gem install cocoapods
 --user-install [gem install]
-{create or edit.bash_profile}
-
+[create or edit.bash_profile]{}{}
+<>
 export GEM_HOME=$HOME/.gem
 export PATH=$GEM_HOME/bin:$PATH
-$ gem install cocoapods --user-install
-$ gem which cocoapods
+[$ gem install cocoapods --user-install]
+<>{$ gem which cocoapods
 /Users/eloy/.gem/ruby/2.0.0/gems/cocoapods-0.29.0/lib/cocoapods.rb
-$ /Users/eloy/.gem/ruby/2.0.0/bin/pod install
+$ /Users/eloy/.gem/ruby/2.0.0/bin/pod install}
 update user profile
-$ [sudo] gem install cocoapods
-$ [sudo] gem install cocoapods --pre 
-end.
+<>$ [sudo] gem install cocoapods
+<>$ [sudo] gem install cocoapods --pre 
+
