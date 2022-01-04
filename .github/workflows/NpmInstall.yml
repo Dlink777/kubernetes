@@ -1,0 +1,12 @@
+npm install
+npm run chrome
+Compile for firefox:
+
+npm install
+npm run firefox
+Compile for development:
+
+# install typescript
+npm install -g typescript
+# install dependencies
+npm install
