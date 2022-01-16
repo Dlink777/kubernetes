@@ -41,4 +41,5 @@ curl https://api.stripe.com/v1/charges \
   -d currency=cad \
   -d source=tok_mastercard \
   -d "metadata[order_id]"=6735
+Null
 
